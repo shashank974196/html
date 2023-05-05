@@ -1,0 +1,166 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+}
+body{
+    font-family:"Roboto",san-serif;
+    background-color: #44546A;
+    
+
+}
+.logo{
+    position: absolute;
+width: 150px;
+height: 90px;
+left:3px;
+top: 4px;
+
+}
+
+
+.links{
+    position: absolute;
+width: 500px;
+height: 48px;
+left: 1000px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+color: #FFFFFF;
+}
+nav{
+    display: flex;
+    align-items:right;
+    justify-content: space-between;
+    height:72px;
+    margin-left:-410px;
+}
+nav ul{
+    display: flex;
+}
+.links li{
+    list-style:none;
+    margin-right:0px;
+    }
+    .links a{
+        color:white;
+        font-size: 24px;
+        text-decoration: none;
+        font-family: Sanchez;
+    }
+    .header{
+        background: #364155;
+        height: 660px;
+        color: #fff;
+        overflow: hidden;
+      }
+      .header .container{
+      display: flex;
+      
+      }
+      .header .container div{
+        width: 50%;
+      }
+      .header .first{
+        position: relative;
+        margin-top: 200px;
+      }
+      .header .first:before{
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 15%;
+      height: 10%;
+      width: 1px;
+       background: #08aac9;
+      }
+      .header .first .box{
+        position: relative;
+        width: 100%;
+        padding-left: 80px;
+      }
+      .header .first .box:before{
+        content:'' ;
+        position: absolute;
+        left: 0;
+        top: 10px;
+        height: 98%;
+        width: 1px;
+       background: rgba(255, 255r, 255, 0.38);
+      }
+      .header .first .box h2{
+        width: 90%;
+        font-size: 60px;
+        margin: 0;
+        margin-bottom: 10px;
+      
+      }
+      .header .first .box p{
+        width:90% ;
+        margin-bottom: 17px;
+        line-height:1.9 ;
+      
+      }
+      .button{
+        color: blue;
+        font-size:small ;
+      }
+      .header .first .box span{
+        display: block;
+        letter-spacing:8px ;
+        font-size: 22px;
+        margin-bottom: 40px;
+      
+      }
+      .header .first a{
+        display: block;
+        text-decoration: none;
+        color:#fff;
+        padding: 10px 0;
+        width: 20%;
+        text-align: center;
+      background-color: #08aac9;
+      margin-right: 20px;
+      text-transform: uppercase ;
+      margin-left: 80px;
+      }
+      .header .first a:hover{
+        background: #fff;
+        color: #364155;
+      }
+      .header .first a i{
+        margin-left: 5px;
+      }
+      .header .first .left i{
+        display: block;
+        margin-top: 15px;
+        cursor: pointer;
+        padding: 5px 0;
+      
+      }
+      .header .first .left i:hover{
+        color: #08aac9;
+      }
+      .header .first .right {
+        width: 85%;
+        float: left;
+        list-style: none;
+        position: absolute;
+        bottom: -20px;
+        padding: 0;
+        left: 7%;
+      
+      }
+      .image{
+        position: absolute;
+        width: 700.6px;
+        height: 500px;
+        left: 700px;
+        top: 150px;
+        color:#364155;
+        
+      }

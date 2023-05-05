@@ -1,0 +1,88 @@
+body{
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+}
+.heading{
+    text-align: center;
+    position: absolute;
+width: 239px;
+height: 58px;
+left: 576px;
+top: 65px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 58px;
+}
+.links{
+    position: absolute;
+width: 561px;
+height: 30px;
+left: 820px;
+top: 0px;
+text-align: inline;
+display: flex;
+    align-items:right;
+    justify-content: space-between;
+    height:72px;
+    margin-left:85px;
+   
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+}
+ul li a{
+    text-decoration: none;
+}
+.bike1{
+    position: absolute;
+width: 289.58px;
+height: 321px;
+left: 50px;
+top: 800px;
+}
+.bike7{
+    position: absolute;
+width: 289.82px;
+height: 321px;
+left: 50px;
+top: 185px;
+}
+.bike5{
+    position: absolute;
+width: 281.46px;
+height: 321px;
+left: 1100px;
+top: 800px;
+}
+.bike4{
+    position: absolute;
+width: 270.42px;
+height: 300px;
+left: 600px;
+top: 191px;
+}
+.bike3{
+    position: absolute;
+width: 289.61px;
+height: 321px;
+left: 1100px;
+top: 200px;
+}
+.bike2{
+    position: absolute;
+width: 289px;
+height: 321.95px;
+left:600px;
+top:800px;
+
+}
